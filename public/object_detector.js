@@ -120,7 +120,7 @@ function draw_boxes(canvas, boxes) {
 const yolo_classes = ["yawn", "eye_open", "front_face"];
 
 window.navigator.mediaDevices
-  .getUserMedia({ video: true, audio: true })
+  .getUserMedia({ video: true, audio: false })
   .then((stream) => {
     video.srcObject = stream;
     video.onloadedmetadata = (e) => {
