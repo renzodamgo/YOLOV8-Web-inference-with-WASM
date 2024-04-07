@@ -4,7 +4,7 @@
   <img src="public/demo.gif" alt="animated" />
 </p>
 
-## Instrutions
+## Instructions
 
 1. To install dependencies:
 
